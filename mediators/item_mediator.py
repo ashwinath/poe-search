@@ -11,8 +11,16 @@ PROJECTIONS = [
     "name",
     "class",
     "base_item",
-    "implicit_stat_text", # TODO: figure this out why are there html tags inside
+    "implicit_stat_text",
     "explicit_stat_text",
+    "drop_level",
+    "drop_level_maximum",
+    "required_dexterity",
+    "required_intelligence",
+    "required_level",
+    "required_level_base",
+    "required_strength",
+    "base_item",
 ]
 
 PARAMS = {
