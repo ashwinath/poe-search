@@ -3,10 +3,10 @@ import tornado.gen
 from bs4 import BeautifulSoup
 from tornado.httputil import url_concat
 from utils.download import download
+from es.generic_item import GenericItemStore
 
 BASE_URL = "https://pathofexile.gamepedia.com/api.php"
 
-# TODO: need to find out list of projetions
 PROJECTIONS = [
     "name",
     "class",
